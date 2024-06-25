@@ -1,0 +1,15 @@
+{
+    "name": "WebSocket Collab Client",
+    "description": "Adds support for communication between AI Vtubers with a WebSocket server.",
+    "author": "w-AI-fu_DEV",
+    "version": "1.0.0",
+    "npm-dependencies": {},
+    "subscribes": {
+        "load": "onLoad",
+        "input-source": "onInputQuery",
+        "response-handling": "onResponse",
+        "main-loop-end": "onMainLoopEnd",
+        "quit": "onQuit"
+    },
+    "activated": false
+}
